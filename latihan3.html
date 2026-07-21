@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Form</title>
+  </head>
+  <body background="gambar/BGWHITE.jpg">
+    <h2>FORMULIR:</h2>
+    <br>
+    <form>
+      <label>Nama Anda</label>
+      <input type="text" name="nama" placeholder="Nama Lengkap Anda..." size="30" maxlength="25">
+      <br><br>
+      <label>Password Anda</label>
+      <input type="password" name="pass" placeholder="Password Anda..." size="30" maxlength="25">
+      <br><br>
+      <label>Email Anda</label>
+      <input type="email" name="email" placeholder="...@gmail.com" size="30" maxlength="25">
+      <br><br>
+      <label>Warna Favorit</label>
+      <input type="color" name="warna" placeholder="Pilih warna favorit Anda...">
+      <br><br>
+
+      <label>Tanggal Lahir</label>
+      <input type="date" name="tgl_lahir">
+      <br><br>
+
+      <label>Nilai Ujian</label>
+      <input type="number" name="nilai" min="0" max="10" placeholder="0-10" size="30" maxlength="25">
+      <br><br>
+
+      <label>Upload Foto</label>
+      <input type="file" name="upload" placeholder="">
+      <br><br>
+
+      <label>Jenis Kelamin</label>
+      <input type="radio" name="jk" value="L"> Laki-laki
+      <input type="radio" name="jk" value="P"> Perempuan
+      <br><br>
+
+      <label>Hobi</label>
+      <input type="checkbox" name="hobi" value="Baca Buku"> Baca Buku
+      <input type="checkbox" name="hobi" value="Nonton Film"> Nonton Film
+      <input type="checkbox" name="hobi" value="Berolahraga"> Berolahraga
+      <input type="checkbox" name="hobi" value="Bermain Game"> Bermain Game
+      <input type="text" name="hobi" placeholder="Hobi Lainnya..." size="30" maxlength="25">
+      <br><br>
+
+      <label>Pangkat/Gol</label>
+      <select name="pangkat">
+        <option value="Pilih">Pilih Pangkat/Gol?</option>
+        <option value="Pama">PAMA</option>
+        <option value="Bintara">BINTARA</option>
+        <option value="Tamtama">TAMTAMA</option>
+        <option value="Pns">PNS</option>
+      </select>
+      <br><br>
+
+      <label>Kolom Komentar</label>
+      <textarea name="Komentar" rows="5" cols="50" placeholder="Tulis komentar Anda disini..."></textarea>
+      <br><br>
+      <input type="submit" value="Simpan">
+      <input type="reset" value="Batal">
+    </form>
+
+    <br><br><hr>
+    <form action="" method="">
+        <h2 align="center">Formulir Personil Pelatihan
+        <br><i>Pusinfolahta TNI TA 2026</i>
+        </h2>
+        <center><img src="gambar/logoTNI.png" width="10%"</center>
+        <table border="1" align="center" celpadding="5" celspacing="0">
+            <tr>
+                <th bgcolor="yellow" align="center" colspan="2">Personil-2026</th>
+                <!-- <td></td> -->
+            </tr>
+
+                        <tr>
+                <td><label>Nama</label></td>
+                <td><input type="text" name="nama" placeholder="nama lengkap anda" size="30" maxlength="25"></td>
+            </tr>
+
+                        <tr>
+                <td><label>Pangkat/Gol</label></td>
+                <td><select name="pangkat">
+        <option value="Pilih">Pilih Pangkat/Gol?</option>
+        <option value="Pama">PAMA</option>
+        <option value="Bintara">BINTARA</option>
+        <option value="Tamtama">TAMTAMA</option>
+        <option value="Pns">PNS</option></select></td>
+            </tr>
+
+                        <tr>
+                <td><label>NRP</label></td>
+                <td><input type="text" name="nrp" placeholder="Nomor Registrasi Personil"></td>
+            </tr>
+
+                        <tr>
+                <td><label>Tempat Lahir</label></td>
+                <td><input type="text" name="tempat_lahir" placeholder="Tempat Lahir"></td>
+            </tr>
+
+                        <tr>
+                <td><label>Tanggal Lahir</label></td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+
+                        <tr>
+                    <td><label>Hobi</label></td>
+                    <td><input type="checkbox" name="hobi" value="Baca Buku"> Baca Buku <br>
+                    <input type="checkbox" name="hobi" value="Nonton Film"> Nonton Film <br>
+                    <input type="checkbox" name="hobi" value="Berolahraga"> Berolahraga <br>
+                    <input type="checkbox" name="hobi" value="Bermain Game"> Bermain Game<br>
+                     <input type="text" name="hobi" placeholder="Hobi Lainnya..." size="30" maxlength="25"></td>
+            </tr>
+
+                        <tr>
+                <td><label>Komentar</label></td>
+                <td><textarea name="Komentar" rows="5" cols="50" placeholder="Tulis komentar Anda disini..."></textarea></td>
+            </tr>
+            </tr>
+
+                        <tr>
+                <td><label>Foto</label></td>
+                <td><input type="file" name="foto"></td>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow"colspan="2" align="center"><input type="submit" value="Simpan">&nbsp; 
+                    <!-- <br><a name="spasi pada pilihan"></a>" -->
+                <input type="reset" value="Batal"></td>
+        </table>
+    </form>
+  </body>
+</html>
